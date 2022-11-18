@@ -1,0 +1,355 @@
+
+{
+  "type": "line",
+  "figWidth": 600,
+  "figHeight": 350,
+  "usetex": false,
+
+  "legendLoc": "best",
+  "legendColumn": 1,
+
+  "markerSize": 8,
+  "lineWidth": 1,
+
+  "xLog": false,
+  "yLog": false,
+  "xGrid": false,
+  "yGrid": false,
+
+  "xFontSize": 22,
+  "xTickRotate": false,
+  "yFontSize": 22,
+  "legendFontSize": 14,
+  "output": true,
+  "show": false,
+
+  "children": [{
+  "markerSize": 0,
+  "name": "throughput-cdf-6-100-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "CR" ,  "BotCap" ,  "SumDist" ,  "MultiMetric" ],
+  "xTitle": "Throughput (eps)",
+  "xTicks&Labels": [0],
+  
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN]]
+}, {
+  "markerSize": 0,
+  "name": "throughput-cdf-6-100-03-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "CR" ,  "BotCap" ,  "SumDist" ,  "MultiMetric" ],
+  "xTitle": "Throughput (eps)",
+  "xTicks&Labels": [0],
+  
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN]]
+}, {
+  "markerSize": 0,
+  "name": "throughput-cdf-6-400-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "CR" ,  "BotCap" ,  "SumDist" ,  "MultiMetric" ],
+  "xTitle": "Throughput (eps)",
+  "xTicks&Labels": [0],
+  
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN]]
+}, {
+  "name": "throughput-d-100-06-09-3-10",
+  "xTitle": "Average node degree",
+  "x": [3, 4, 5, 6],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "Throughput (eps)",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-paths-d-100-06-09-3-10",
+  "xTitle": "Average node degree",
+  "x": [3, 4, 5, 6],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "# succ main paths",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-pairs-d-100-06-09-3-10",
+  "xTitle": "Average node degree",
+  "x": [3, 4, 5, 6],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "# succ S-D pairs",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "throughput-6-100-06-09-k-10",
+  "xTitle": "Link state broadcast range k",
+  "x": [0, 3, 6, 9],
+  "xTicks&Labels": [[0, 3, 6, 9], ["0", "3", "6", "∞"]],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "Throughput (eps)",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-paths-6-100-06-09-k-10",
+  "xTitle": "Link state broadcast range k",
+  "x": [0, 3, 6, 9],
+  "xTicks&Labels": [[0, 3, 6, 9], ["0", "3", "6", "∞"]],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "# succ main paths",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-pairs-6-100-06-09-k-10",
+  "xTitle": "Link state broadcast range k",
+  "x": [0, 3, 6, 9],
+  "xTicks&Labels": [[0, 3, 6, 9], ["0", "3", "6", "∞"]],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "# succ S-D pairs",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "throughput-6-n-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "xTitle": "|V|",
+  "xLog" : true,
+  "xTicks&Labels": [[50, 100, 200, 400, 800], [ "50" ,  "100" ,  "200" ,  "400" ,  "800" ]],
+  "yTitle": "Throughput (eps)",
+  "x": [50, 100, 200, 400, 800],
+  "y": [[NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-paths-6-n-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "xTitle": "|V|",
+  "xLog" : true,
+  "xTicks&Labels": [[50, 100, 200, 400, 800], [ "50" ,  "100" ,  "200" ,  "400" ,  "800" ]],
+  "yTitle": "# succ main paths",
+  "x": [50, 100, 200, 400, 800],
+  "y": [[NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-pairs-6-n-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "xTitle": "|V|",
+  "xLog" : true,
+  "xTicks&Labels": [[50, 100, 200, 400, 800], [ "50" ,  "100" ,  "200" ,  "400" ,  "800" ]],
+  "yTitle": "# succ S-D pairs",
+  "x": [50, 100, 200, 400, 800],
+  "y": [[NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "throughput-6-100-06-09-3-nsd",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "xTitle": "# S-D pairs in one time slot",
+  "yTitle": "Throughput (eps)",
+  "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "y": [[NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-paths-6-100-06-09-3-nsd",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "xTitle": "# S-D pairs in one time slot",
+  "yTitle": "# succ main paths",
+  "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "y": [[NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-pairs-6-100-06-09-3-nsd",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "xTitle": "# S-D pairs in one time slot",
+  "yTitle": "# succ S-D pairs",
+  "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "y": [[NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "throughput-6-100-p-09-3-10",
+  "xTitle": "Average channel success rate",
+  "x": [0.1, 0.3, 0.6, 0.9],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "Throughput (eps)",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-paths-6-100-p-09-3-10",
+  "xTitle": "Average channel success rate",
+  "x": [0.1, 0.3, 0.6, 0.9],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "# succ main paths",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-pairs-6-100-p-09-3-10",
+  "xTitle": "Average channel success rate",
+  "x": [0.1, 0.3, 0.6, 0.9],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "# succ S-D pairs",
+  "y": [[NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN]]
+}, {
+  "name": "throughput-6-100-06-q-3-10",
+  "xTitle": "Swapping success rate",
+  "x": [0.8, 0.85, 0.9, 0.95, 1.0],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "Throughput (eps)",
+  "y": [[NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-paths-6-100-06-q-3-10",
+  "xTitle": "Swapping success rate",
+  "x": [0.8, 0.85, 0.9, 0.95, 1.0],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "# succ main paths",
+  "y": [[NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "succ-pairs-6-100-06-q-3-10",
+  "xTitle": "Swapping success rate",
+  "x": [0.8, 0.85, 0.9, 0.95, 1.0],
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "yTitle": "# succ S-D pairs",
+  "y": [[NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "channels-throughput-6-100-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "xTitle": "Throughput (eps)",
+  "yTitle": "# occupied channels",
+  "x": [0],
+  "xTicks&Labels": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN]]
+}, {
+  "name": "channels-throughput-6-100-06-09-3-10-noA1",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ],
+  "xTitle": "Throughput (eps)",
+  "yTitle": "# occupied channels",
+  "x": [0],
+  "xTicks&Labels": [0],
+  "y": [[NaN], [NaN], [NaN]]
+}, {
+  "name": "channels-throughput-6-100-06-09-3-10-rp",
+  "solutionList": [ "Q-CAST" ,  "Q-CAST\\R" ,  "Q-PASS" ,  "Q-PASS\\R" ],
+  "xTitle": "Throughput (eps)",
+  "yTitle": "# occupied channels",
+  "x": [0],
+  "xTicks&Labels": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN]]
+}, {
+  "markerSize": 0,
+  "name": "mp-cdf-6-100-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "SLMP" ,  "Greedy" ,  "Q-PASS" ],
+  "xTitle": "Total width of allocated major paths",
+  "yTitle": "CDF",
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN]]
+}, {
+  "name": "a1-rp-throughput-6-100-06-09-3-nsd",
+  "solutionList": [ "Q-PASS" ,  "Q-PASS\\R" ],
+  "xTitle": "# S-D pairs in one time slot",
+  "yTitle": "Throughput (eps)",
+  "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "y": [[NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "a1-rp-succ-pairs-6-100-06-09-3-nsd",
+  "solutionList": [ "Q-PASS" ,  "Q-PASS\\R" ],
+  "xTitle": "# S-D pairs in one time slot",
+  "yTitle": "# succ S-D pairs",
+  "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "y": [[NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "markerSize": 0,
+  "name": "a2-rp-len-cdf-6-100-06-09-3-nsd",
+  "solutionList": [ "1 S-D pair" ,  "2 S-D pairs" ,  "3 S-D pairs" ,  "4 S-D pairs" ,  "5 S-D pairs" ,  "6 S-D pairs" ,  "7 S-D pairs" ,  "8 S-D pairs" ,  "9 S-D pairs" ,  "10 S-D pairs" ],
+  "legendColumn": 2,
+  "legendFontSize": 10,
+  "legendAutomaticallyReorder": false,
+  "xTitle": "Length of recovery path",
+  "yTitle": "CDF",
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN]]
+}, {
+  "markerSize": 0,
+  "name": "a2-rp-wid-cdf-6-100-06-09-3-nsd",
+  "solutionList": [ "1 S-D pair" ,  "2 S-D pairs" ,  "3 S-D pairs" ,  "4 S-D pairs" ,  "5 S-D pairs" ,  "6 S-D pairs" ,  "7 S-D pairs" ,  "8 S-D pairs" ,  "9 S-D pairs" ,  "10 S-D pairs" ],
+  "legendColumn": 2,
+  "legendFontSize": 10,
+  "legendAutomaticallyReorder": false,
+  "xTitle": "Width of recovery path",
+  "yTitle": "CDF",
+  "xLimit": [0, -1],
+  "yLimit": [0, 1],
+  "x": [],
+  "y": [[], [], [], [], [], [], [], [], [], []]
+}, {
+  "markerSize": 0,
+  "name": "a2-rp-wid-per-mp-cdf-6-100-06-09-3-nsd",
+  "solutionList": [ "1 S-D pair" ,  "2 S-D pairs" ,  "3 S-D pairs" ,  "4 S-D pairs" ,  "5 S-D pairs" ,  "6 S-D pairs" ,  "7 S-D pairs" ,  "8 S-D pairs" ,  "9 S-D pairs" ,  "10 S-D pairs" ],
+  "legendColumn": 2,
+  "legendFontSize": 10,
+  "legendAutomaticallyReorder": false,
+  "xTitle": "# recovery paths per major path",
+  "yTitle": "CDF",
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN], [NaN]]
+}, {
+  "markerSize": 0,
+    "name": "rp-throughput-cdf-6-100-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "Q-CAST\\R" ,  "Q-PASS" ,  "Q-PASS\\R" ],
+  "xTitle": "Throughput (eps)",
+  "yTitle": "CDF",
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+    "xTicks&Labels": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN]]
+}, {
+  "markerSize": 0,
+  "name": "a2-rp-len-cdf-6-n-06-09-3-10",
+  "solutionList": [ "|V| = 50" ,  "|V| = 100" ,  "|V| = 200" ,  "|V| = 400" ,  "|V| = 800" ],
+  "xTitle": "Length of recovery path",
+  "yTitle": "CDF",
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN], [NaN]]
+}, {
+  "markerSize": 0,
+  "name": "a2-rp-wid-cdf-6-n-06-09-3-10",
+  "solutionList": [ "|V| = 50" ,  "|V| = 100" ,  "|V| = 200" ,  "|V| = 400" ,  "|V| = 800" ],
+  "xTitle": "Width of recovery path",
+  "yTitle": "CDF",
+  "xLimit": [0, -1],
+  "yLimit": [0, 1],
+  "x": [],
+  "y": [[], [], [], [], []]
+}, {
+  "markerSize": 0,
+  "name": "a2-rp-wid-per-mp-cdf-6-n-06-09-3-10",
+  "solutionList": [ "|V| = 50" ,  "|V| = 100" ,  "|V| = 200" ,  "|V| = 400" ,  "|V| = 800" ],
+  "xTitle": "# recovery paths per major path",
+  "yTitle": "CDF",
+  "xLimit": [0, 0],
+  "yLimit": [0, 1],
+  "x": [0],
+  "y": [[NaN], [NaN], [NaN], [NaN], [NaN]]
+}, {
+  "name": "a2-rp-throughput-6-n-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "Q-CAST\\R" ],
+  "xTitle": "|V|",
+  "xLog" : true,
+  "xTicks&Labels": [[50, 100, 200, 400, 800], [ "50" ,  "100" ,  "200" ,  "400" ,  "800" ]],
+  "yTitle": "Throughput (eps)",
+  "x": [50, 100, 200, 400, 800],
+  "y": [[NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "a2-rp-succ-pairs-6-n-06-09-3-10",
+  "solutionList": [ "Q-CAST" ,  "Q-CAST\\R" ],
+  "xTitle": "|V|",
+  "xLog" : true,
+  "xTicks&Labels": [[50, 100, 200, 400, 800], [ "50" ,  "100" ,  "200" ,  "400" ,  "800" ]],
+  "yTitle": "Success S-D pairs",
+  "x": [50, 100, 200, 400, 800],
+  "y": [[NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "a2-rp-throughput-6-100-06-09-3-nsd",
+  "solutionList": [ "Q-CAST" ,  "Q-CAST\\R" ],
+  "xTitle": "# S-D pairs in one time slot",
+  "yTitle": "Throughput (eps)",
+  "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "y": [[NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]]
+}, {
+  "name": "a2-rp-succ-pairs-6-100-06-09-3-nsd",
+  "solutionList": [ "Q-CAST" ,  "Q-CAST\\R" ],
+  "xTitle": "# S-D pairs in one time slot",
+  "yTitle": "Success S-D pairs",
+  "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "y": [[NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]]
+}]
+}

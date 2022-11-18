@@ -11,12 +11,12 @@ Our paper will appear in ACM SIGCOMM 2020.
 ## Repository Structure
 
 - `src/main/kotlin`         source code root. **Under this directory:**
-- `utils`                   utilities functions
-- `quantum/algorithm`       quantum routing algorithms, including Q-PASS, Q-CAST, SLMP, Greedy, and more
-- `quantum/topo`            abstractions for components in a quantum network: links, nodes, and the quantum network
-- `quantum/Visualizer.kt`   a graphical interface for easy algorithm debugging, comprehending, and improving. 
-- `quantum/Plot.kt`         generates all simulation figure data
-- `quantum/Analytical.kt`   generates all analytical figure data
+- `utils`                   【工具函数】 utilities functions 
+- `quantum/algorithm`       【若干量子路由算法】，包括Q-PASS、Q-CAST、SLMP和贪心算法 quantum routing algorithms, including Q-PASS, Q-CAST, SLMP, Greedy, and more 
+- `quantum/topo`            【量子网络中组件的抽象：链路、节点和量子网络】abstractions for components in a quantum network: links, nodes, and the quantum network
+- `quantum/Visualizer.kt`   【便于算法调试、理解和改进的图形界面。】a graphical interface for easy algorithm debugging, comprehending, and improving. 
+- `quantum/Plot.kt`         【生成所有仿真图形数据】generates all simulation figure data
+- `quantum/Analytical.kt`   【生成所有分析图形数据】generates all analytical figure data
 
 ## Run demo with GUI
 
